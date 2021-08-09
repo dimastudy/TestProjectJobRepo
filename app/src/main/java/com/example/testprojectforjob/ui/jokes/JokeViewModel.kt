@@ -27,7 +27,7 @@ class JokeViewModel @AssistedInject constructor(
         getJoke()
     }
 
-    //Here i made a loop for making list with 15 items
+    //Here i made a cycle for making list with 15 items
     private fun getJoke(){
         viewModelScope.launch {
             val jokes = ArrayList<JokeNetwork>()
